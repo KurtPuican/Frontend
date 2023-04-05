@@ -2,6 +2,8 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import Headerproject from './components/Headerproject.vue'
+import Footproject from './components/Footproject.vue';
+
 </script>
 
 <template>
@@ -18,6 +20,7 @@ import Headerproject from './components/Headerproject.vue'
    <Headerproject name="componente 1"/>
    <Headerproject name="componente 2"/>
    <Headerproject name="componente 3"/>
+   <Footproject email="correo"/>
   </main>
 </template>
 
